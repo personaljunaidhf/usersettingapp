@@ -1,0 +1,40 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:t="sap.ui.table" xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core"
+	height="100%" controllerName="com.poc.test.TestWrkList.controller.Worklist">
+	<Page title="Personal Settings" enableScrolling="true" class="sapUiResponsivePadding--header sapUiResponsivePadding--footer">
+		<headerContent></headerContent>
+		<content>
+			<VBox fitContainer="true">
+				<Toolbar>
+					<Button text="Edit" type="Accept">
+						<layoutData>
+							<ToolbarLayoutData shrinkable="true"/>
+						</layoutData>
+					</Button>
+					<Button text="Cancel" type="Reject">
+						<layoutData>
+							<ToolbarLayoutData shrinkable="true"/>
+						</layoutData>
+					</Button>
+				</Toolbar>
+				<FlexBox>
+					<core:Fragment fragmentName="com.poc.test.TestWrkList.view.fragments.UserHeaderDisplay" type="XML"/>
+				</FlexBox>
+				<IconTabBar upperCase="true" expandable="false" applyContentPadding="true" stretchContentHeight="true" class="sapUiResponsiveContentPadding">
+					<items>
+						<IconTabFilter text="Position">
+							<FlexBox>
+								<core:Fragment fragmentName="com.poc.test.TestWrkList.view.fragments.PositionDisplay" type="XML"/>
+							</FlexBox>
+						</IconTabFilter>
+						<IconTabFilter text="User Account">
+							<FlexBox>
+								<core:Fragment fragmentName="com.poc.test.TestWrkList.view.fragments.UserAccountDisplay" type="XML"/>
+							</FlexBox>
+						</IconTabFilter>
+					</items>
+				</IconTabBar>
+			</VBox>
+		</content>
+		
+	</Page>
+</mvc:View>
