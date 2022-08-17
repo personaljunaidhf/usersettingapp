@@ -1,0 +1,30 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form">
+	<VBox width="100%">
+			<f:SimpleForm id="UserHeaderDisplay" editable="false"
+			layout="ResponsiveGridLayout"
+			title="Address"
+			columnsXL="2"
+			columnsL="2"
+			columnsM="2"
+			singleContainerFullSize="false">
+		<f:content>
+			<core:Title text="Office"/>
+			<Label text="TestName"/>
+			<Text text="Red Point Stores"/>
+			<Label text="Street/No."/>
+			<Text text="Main St 1618"/>
+			<Label text="ZIP Code/City"/>
+			<Text text="31415 Maintown"/>
+			<Label text="Country"/>
+			<Text text="Germany"/>
+			<core:Title text="Online"/>
+			<Label text="Web"/>
+			<Text text="http://www.sap.com"/>
+			<Label text="Twitter"/>
+			<Text text="@sap"/>
+		</f:content>
+		
+	</f:SimpleForm>
+	</VBox>
+
+</core:FragmentDefinition>
