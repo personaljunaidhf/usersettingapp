@@ -12,7 +12,7 @@ xmlns:html="http://www.w3.org/1999/xhtml"
 			<ObjectPageDynamicHeaderTitle>
 				<breadcrumbs>
 					<m:Breadcrumbs>
-						<m:Link text="Page 1 a very long link" press="handleLink1Press"/>
+						<m:Link text="Page 1 a very long link YEss yess" press="handleLink1Press"/>
 						<m:Link text="Page 2 long link" press="handleLink2Press"/>
 					</m:Breadcrumbs>
 				</breadcrumbs>
